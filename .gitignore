@@ -126,12 +126,10 @@ dmypy.json
 
 # other things
 *.jpg
-*.png
 *.pt
 *.json
 runs/
 goodmodel.pt.bak
-*.gif
 storage/
 imagenet_pretrained/
 *.csv
