@@ -23,10 +23,11 @@
       <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='Paper PDF'>
     </a>
     <a href='https://yunzeman.github.io/DualCross' style='padding-left: 0.5rem;'>
-      <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
+      <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'></a>
+    <a href='https://youtu.be/mLqlsVk1HLw' style='padding-left: 0.5rem;'>
+      <img src='https://img.shields.io/badge/Youtube-Video-red?style=flat&logo=youtube&logoColor=red' alt='Youtube Video'></a>
     <a href='https://github.com/YunzeMan/DualCross' style='padding-left: 0.5rem;'>
-      <img src='https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white' alt='Youtube Video'>
-    </a>
+      <img src='https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white' alt='Youtube Video'></a>
   </p>
 </p>
 <br />
