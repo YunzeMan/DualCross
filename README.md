@@ -28,6 +28,10 @@
       <img src='https://img.shields.io/badge/Youtube-Video-red?style=flat&logo=youtube&logoColor=red' alt='Youtube Video'></a>
     <a href='https://github.com/YunzeMan/DualCross' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white' alt='Youtube Video'></a>
+    <a href="" target='_blank'>
+      <img src="https://visitor-badge.laobi.icu/badge?page_id=YunzeMan.DualCross&left_color=gray&right_color=blue">
+    </a>
+
   </p>
 </p>
 <br />
