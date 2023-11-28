@@ -68,11 +68,11 @@ The code is tested on Python `3.6.10` with Pytorch `1.5.0+cu102` and `1.7.0+cu11
 ### Train a Model
 To train the LiDAR-Teacher model first
 ```Python
-python main.py train  --logdir=./runs-lteacher  --dataroot=/directory/to/dataset  --bsz=8  --gpuid=0  --domain_gap=True  --source='day'  --target='night'  --parser_name='lidarinputdata'  --up_scale=4  --color_jitter=True  --rand_resize=False  --teacher_student=True  --adv_training=False
+python main.py train  --logdir=./runs-lteacher  --dataroot=/directory/to/dataset  --bsz=8  --gpuid=0  --domain_gap=True  --source='day'  --target='night'  --parser_name='lidarinputdata'  --up_scale=4  --color_jitter=True  --rand_resize=True  --teacher_student=True  --adv_training=False
 ```
 To train the Image-Student model
 ```Python
-python main.py train  --logdir=./runs-istudent  --dataroot=/directory/to/dataset  --bsz=4  --gpuid=0  --domain_gap=True  --source='day'  --target='night'  --parser_name='imglidardata'  --up_scale=4  --color_jitter=True --rand_resize=False  --adv_training=True  --align_place='midfinal'  --domainloss_lambda=0.1  --middomain_weight=0.1  --teacher_student=True  --train_student=True  --modelf_teacher=/directory/to/trained/teacher/model  --teacher_lambda=1.0  --use_gt=True  --gt_lambda=0.1  --use_depth=True  --depth_lambda=0.05
+python main.py train  --logdir=./runs-istudent  --dataroot=/directory/to/dataset  --bsz=4  --gpuid=0  --domain_gap=True  --source='day'  --target='night'  --parser_name='imglidardata'  --up_scale=4  --color_jitter=True --rand_resize=True  --adv_training=True  --align_place='midfinal'  --domainloss_lambda=0.1  --middomain_weight=0.1  --teacher_student=True  --train_student=True  --modelf_teacher=/directory/to/trained/teacher/model  --teacher_lambda=1.0  --use_gt=True  --gt_lambda=0.1  --use_depth=True  --depth_lambda=0.05
 ```
 
 ### Visualize Results
